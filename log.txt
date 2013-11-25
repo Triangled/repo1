@@ -1,0 +1,368 @@
+    1  sudo apt-get install foxit 
+    2  apt-get install foxit
+    3  ifconfig
+    4  ping www.google.com
+    5  ping 43.88.80.91
+    6  ping 43.88.80.203
+    7  ifconfig
+    8  yum list updates
+    9  yum update
+   10  ping 127.0.0.1
+   11  ping 43.88.80.203
+   12  ping 43.88.80.20
+   13  yum grouplist 
+   14  ifconfig
+   15  cd /etc/sysconfig/network-scripts/
+   16  ls
+   17  ls ifcfg-eth1
+   18  cat ifcfg-eth1
+   19  cat ifcfg-eth0
+   20  cat ifcfg-lo
+   21  ifconfig eth1|grep inet|awk '{print $2}' | sed's#/.*##\'
+   22  ifconfig
+   23  ping 192.168.1.0
+   24  ping 192.168.0.1
+   25  lsmod
+   26  ifconfig
+   27  ifconfig
+   28  ifconfig
+   29  ifconfig
+   30  ifconfig
+   31  ifconfig
+   32  /etc/init.d/network restart
+   33  ifconfig
+   34  ifconfig
+   35  ifconfig
+   36  ps ax | grep dhclient
+   37  ifconfig eth0
+   38  ifconfig eth1
+   39  ifconfig eth0
+   40  yum list updates
+   41  yum update
+   42  ping 43.88.80.230
+   43  cat /etc/redhat-release 
+   44  rpm -Uvh rpmforge-release*rpm
+   45  yum update
+   46  yum install synergy
+   47  vi /etc/synergy.conf
+   48  grep -ir exclud /etc/yum
+   49  uname -a
+   50  clear
+   51  uname -a
+   52  yum update
+   53  yum --disablerepo=rpmforge install mod_ssl
+   54  yum --disablerepo=rpmforge update
+   55  curl "http://mirrorlist.centos.org/?release=5&arch=x86_64&repo=os"
+   56  rpm -q centos-release
+   57  ls -l /etc/yum.repos.d/
+   58  yum update
+   59  uname -a
+   60  yum clean all
+   61  yum clean metadata
+   62  yum clean dbcache
+   63  yum update
+   64  yum install synergy
+   65  yum update
+   66  export http_proxy=http://43.88.65.10:8080
+   67  yum update
+   68  clear
+   69  yum install git
+   70  sudo yum intsall git
+   71  sudo yum build-dep git
+   72  wget http://kernel.org/pub/software/scm/git/<latest-git-source>.tar.gz
+   73  tar -xvjf <latest-git>.tar.gz
+   74  rpm -Uvh http://repo.webtatic.com/yum/centos/5/latest.rpm
+   75  export http_proxy=http://sard:emacsrules@43.4.54.16:10080
+   76  rpm -Uvh http://repo.webtatic.com/yum/centos/5/latest.rpm
+   77  yum list update
+   78  yum update
+   79  yum install git
+   80  yum list update
+   81  ping 43.88.80.230
+   82  yum install synergy
+   83  export http_proxy=http://43.88.65.10:8080
+   84  yum install synergy
+   85  yum install git-core
+   86  yum install git-core
+   87  git init
+   88  man git
+   89  yum install git-core
+   90  yum install git-core
+   91  yum install git-core
+   92  yum list update 
+   93  man yum 
+   94  sudo yum build-dep git
+   95  sudo yum install git
+   96  sudo yum build-dep git
+   97  wget http://kernel.org/pub/software/scm/git/<latest-git-source>.tar.gz
+   98  sudo yum build-dep git
+   99  yum upgrade
+  100  sudo 
+  101  rpm -Uvh http://repo.webtatic.com/yum/centos/5/latest.rpm
+  102  export http_proxy=http://sard:emacsrules@43.4.54.16:10080
+  103  rpm -Uvh http://repo.webtatic.com/yum/centos/5/latest.rpm
+  104  export http_proxy=http://sard:emacsrules@43.4.54.16:10080
+  105  export http_proxy=http://43.88.65.10:8080
+  106  rpm -Uvh http://repo.webtatic.com/yum/centos/5/latest.rpm
+  107  export http_proxy=http://sard:emacsrules@43.4.54.16:10080
+  108  rpm -Uvh http://repo.webtatic.com/yum/centos/5/latest.rpm
+  109  rpm -Uvh http://repo.webtatic.com/yum/centos/5/latest.rpm
+  110  yum -y install zlib-devel openssl-devel cpio expat-devel gettext-devel
+  111  cd /usr/local/src
+  112  wget http://git-core.googlecode.com/files/git-1.7.9.tar.gz
+  113  tar xvzf git-1.7.9.tar.gz
+  114  cd git-1.7.9
+  115  ./configure
+  116  make
+  117  ./configure
+  118  ./configure
+  119  ls
+  120  vi config.log
+  121  clear
+  122  ./configure
+  123  ./configure
+  124  make
+  125  make install
+  126  ./configure
+  127  which gcc
+  128  apt-get install gcc
+  129  yum install gcc
+  130  which gcc
+  131  ./configure
+  132  make
+  133  make install
+  134  cd
+  135  mkdir test
+  136  cd test/
+  137  git init
+  138  ls
+  139  git init
+  140  git config --global http.proxy 
+  141  git config --global http.proxy http://43.88.65.10:8080
+  142  git config --global http.proxy 
+  143  git pull
+  144  git remote add origin https://github.com/Triangled/repo1
+  145  git push
+  146  git status
+  147  git pull 
+  148  git pull https://github.com/Triangled/repo1
+  149  export http_proxy=http://43.88.65.10:8080
+  150  git config --global http.proxy 
+  151  export https_proxy=https://43.88.65.10:8080
+  152  git config --global http.proxy 
+  153  git config --global http.proxy 
+  154  git pull https://github.com/Triangled/repo1
+  155  git pull http://github.com/Triangled/repo1
+  156  git init
+  157  git config --global user.name "Shubham"
+  158  git config --global user.email "sharrma.shubha@gmail.com"
+  159  ls
+  160  echo "hello world" > first.txt
+  161  ls
+  162  git add .
+  163  git commit -m "first commit from centos "
+  164  ls
+  165  git log
+  166  git status
+  167  git push 
+  168  git --bare
+  169  git init --bare
+  170  git remote add github_http https://vogella@github.com/vogella/gitbook.git 
+  171  git remote add github_http https://github.com/Triangled/repo1
+  172  git push
+  173  ls
+  174  pull
+  175  git pull
+  176  git config --global http.proxy http://43.88.65.10:8080
+  177  git config --global http.proxy 
+  178  git remote add origin1 https://github.com/Triangled/repo1
+  179  git push
+  180  git push https://github.com/Triangled/repo1
+  181  git status
+  182  echo "it's late" > late.txt
+  183  ls
+  184  git status
+  185  git add .
+  186  git commit -m "again late"
+  187  git statut
+  188  git status
+  189  git log
+  190  git status
+  191  git status
+  192  ls
+  193  git pull
+  194  export https_proxy=https://43.88.65.10:8080
+  195  ls
+  196  git config user.name Shubham
+  197  git config --global user.name Shubham
+  198  git config --global user.email sharrma.shubham
+  199  git config --global user.email sharrma.shubham@gmail.com
+  200  ls
+  201  git status
+  202  echo "test file" > check1
+  203  ls
+  204  git status
+  205  git add check1
+  206  git status
+  207  git commit -m "check commit for username "
+  208  git status 
+  209  export https_proxy=https://43.88.65.10:8080
+  210  git config --get http.proxy
+  211  git branch -a
+  212  git remote add github_http https://github.com/Triangled/repo1
+  213  git remote add github_http https://github.com
+  214  git remote add github1_http https://github.com
+  215  git push 
+  216  git remote add github1_http http://github.com
+  217  git remote add github1_http https://github.com/Triangled/repo1
+  218  git remote add github2_http https://github.com/Triangled/repo1
+  219  git push 
+  220  git pull
+  221  clear
+  222  ls
+  223  yum list update
+  224  ping 43.88.80.230
+  225  git push https://github.com/Triangled/repo1
+  226  yum install curl-devel
+  227  cd ..
+  228  ls
+  229  cd \
+  230  ls
+  231  cd  /usr/local/src/
+  232  ls
+  233  cd git-1.7.9
+  234  ./configure 
+  235  make
+  236  make install
+  237  clear
+  238  git status
+  239  cd ~/test
+  240  ls
+  241  git status
+  242  git oush
+  243  git push
+  244  git pull
+  245  ls
+  246  git push https://github.com/Triangled/repo1
+  247  git push https://github.com/Triangled/repo1
+  248  git config --global user.name "shubham"
+  249  git config --global user.email "sharrma.shubham@gmail.com"
+  250  ls
+  251  echo "testing 1 2 3..." > check2
+  252  ls
+  253  git add check2
+  254  ls
+  255  git status
+  256  git commit -m "github tetsing "
+  257  git push
+  258  git pull
+  259  ls
+  260  git branch 
+  261  git branch -a
+  262  git checkout remotes/origin/testing
+  263  ls
+  264  git rm test01
+  265  ls
+  266  git rm test02
+  267  git rm test03
+  268  git rm test08
+  269  git rm test10
+  270  ls
+  271  cd Linux
+  272  ls
+  273  cd ..
+  274  git clone https://github.com/Triangled/repo1
+  275  ls
+  276  git branch
+  277  git branch -a
+  278  git checkout remotes/origin/master
+  279  git status
+  280  git add .
+  281  git commit -m "commited repo clone"
+  282  git push
+  283  git push
+  284  git pull
+  285  git branch -a
+  286  git checkout remotes/origin/master
+  287  ls
+  288  git log
+  289  git revert
+  290  git push
+  291  git pull
+  292  git branches -a
+  293  git branche -a
+  294  git branch
+  295  git checkout master
+  296  git pull
+  297  git pull repo1
+  298  ls
+  299  git push
+  300  cd ..
+  301  python
+  302  yum install synergy
+  303  yum install synergy
+  304  sudo yum install synergy
+  305  cat /etc/redhat-release 
+  306  ifconfig
+  307  yum groupinstall "Development tools"
+  308  ifconfig
+  309  yum install zlib-devel
+  310  yum install bzip2-devel
+  311  yum install openss1-devel
+  312  yum install ncurses-devel
+  313  cd /opt
+  314  wget http://www.python.org/ftp/python/2.7.3/Python-2.7.3.tar.bz2
+  315  tar xf Python-2.7.3.tar.bz2 
+  316  cd Python-2.7.3
+  317  ./configure  --prefix=/usr/local
+  318  make && make altinstall
+  319  cd /usr/local/bin
+  320  ls -ltr python*
+  321  ln -s /usr/local/bin/python2.7 /usr/local/bin/python
+  322  cd /opt
+  323  wget http://pypi.python.org/packages/source/d/distribute/distribute-0.6.27.tar.gz
+  324  export http_proxy=http://proxy:8080
+  325  export http_proxy=http://43.88.65.10:8080
+  326  wget http://pypi.python.org/packages/source/d/distribute/distribute-0.6.27.tar.gz
+  327  export http_proxy=http://sard:emacsrules@43.4.54.16:10080
+  328  wget http://pypi.python.org/packages/source/d/distribute/distribute-0.6.27.tar.gz
+  329  wget https://pypi.python.org/packages/source/d/distribute/distribute-0.6.27.tar.gz
+  330  export http_proxy=http://sard:emacsrules@43.4.54.16:10080
+  331  wget https://pypi.python.org/packages/source/d/distribute/distribute-0.6.27.tar.gz --no-check-certificate
+  332  tar xf distribute-0.6.27.tar.gz 
+  333  cd distribute-0.6.27
+  334  python2.7 setup.py install
+  335  which easy_install
+  336  ls -ltr /usr/local/bin/easy_install*
+  337  easy_install-2.7 requests
+  338  easy_install-2.7 psutil
+  339  easy_install-2.7 paramiko
+  340  echo $PATH
+  341  clear
+  342  cd
+  343  python
+  344  yum -y install python-pip
+  345  cd /tmp
+  346  wget http://download.fedoraproject.org/pub/epel/5/i386/epel-release-5-4.noarch.rpm
+  347  rpm -ivh epel-release-5-4.noarch.rpm
+  348  yum -y install python-pip
+  349  echo 'alias pip="/usr/bin/pip-python"' >> /root/.bashrc
+  350  . $HOME/.bashrc
+  351  clear
+  352  cd
+  353  pip install hmf1.1.10
+  354  pip install hmf 1.1.10
+  355  pip install hmf==1.1.10
+  356  clear
+  357  python
+  358  yum repolist
+  359  clear
+  360  mkdir project
+  361  cd project/
+  362  echo "file " > file1
+  363  echo "file 2" > file2
+  364  echo "file 3" > file3
+  365  ls
+  366  yum install quilt
+  367  man quilt
+  368  history >log.txt
